@@ -4,3 +4,6 @@
 [submodule "api"]
 	path = api
 	url = https://Summng@bitbucket.org/cxria/api.git
+[submodule "admin"]
+	path = admin
+	url = https://Summng@bitbucket.org/cxria/admin.git
