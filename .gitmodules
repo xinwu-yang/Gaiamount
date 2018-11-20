@@ -34,3 +34,6 @@
 [submodule "domain"]
 	path = domain
 	url = https://Summng@bitbucket.org/cxria/domain.git
+[submodule "config"]
+	path = config
+	url = https://Summng@bitbucket.org/cxria/config.git
