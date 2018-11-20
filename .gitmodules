@@ -10,3 +10,6 @@
 [submodule "works"]
 	path = works
 	url = https://Summng@bitbucket.org/cxria/works.git
+[submodule "upload"]
+	path = upload
+	url = https://Summng@bitbucket.org/cxria/upload.git
