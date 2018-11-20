@@ -1,0 +1,27 @@
+admin
+api
+autoconfigure
+commons-cloud-mail
+commons-cloud-oss
+commons-cloud-payment
+commons-cloud-sqs
+commons-cloud-sms
+commons-dao
+commons-utils
+commons-web
+config
+domain
+eureka
+gateway
+order
+personal
+scheduler
+serverjre
+upload
+works
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
