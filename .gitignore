@@ -4,7 +4,6 @@ commons-cloud-payment
 commons-cloud-sqs
 commons-cloud-sms
 commons-dao
-commons-web
 scheduler
 
 ### IntelliJ IDEA ###

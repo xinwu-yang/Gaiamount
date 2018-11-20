@@ -40,3 +40,6 @@
 [submodule "commons-utils"]
 	path = commons-utils
 	url = https://Summng@bitbucket.org/cxria/utils.git
+[submodule "commons-web"]
+	path = commons-web
+	url = https://Summng@bitbucket.org/cxria/web.git
