@@ -37,3 +37,6 @@
 [submodule "config"]
 	path = config
 	url = https://Summng@bitbucket.org/cxria/config.git
+[submodule "commons-utils"]
+	path = commons-utils
+	url = https://Summng@bitbucket.org/cxria/utils.git
