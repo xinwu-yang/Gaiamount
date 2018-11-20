@@ -7,7 +7,6 @@ commons-dao
 commons-utils
 commons-web
 config
-domain
 scheduler
 
 ### IntelliJ IDEA ###

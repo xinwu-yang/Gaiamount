@@ -31,3 +31,6 @@
 [submodule "eureka"]
 	path = eureka
 	url = https://Summng@bitbucket.org/cxria/eureka.git
+[submodule "domain"]
+	path = domain
+	url = https://Summng@bitbucket.org/cxria/domain.git
