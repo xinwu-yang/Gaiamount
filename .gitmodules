@@ -13,3 +13,6 @@
 [submodule "upload"]
 	path = upload
 	url = https://Summng@bitbucket.org/cxria/upload.git
+[submodule "autoconfigure"]
+	path = autoconfigure
+	url = https://Summng@bitbucket.org/cxria/autoconfigure.git
