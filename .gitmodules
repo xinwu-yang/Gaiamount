@@ -19,3 +19,6 @@
 [submodule "serverjre"]
 	path = serverjre
 	url = https://Summng@bitbucket.org/cxria/serverjre.git
+[submodule "personal"]
+	path = personal
+	url = https://Summng@bitbucket.org/cxria/personal.git
