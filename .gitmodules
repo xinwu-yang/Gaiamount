@@ -25,3 +25,6 @@
 [submodule "order"]
 	path = order
 	url = https://Summng@bitbucket.org/cxria/order.git
+[submodule "gateway"]
+	path = gateway
+	url = https://Summng@bitbucket.org/cxria/gateway.git

@@ -9,7 +9,6 @@ commons-web
 config
 domain
 eureka
-gateway
 scheduler
 
 ### IntelliJ IDEA ###
