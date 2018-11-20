@@ -58,3 +58,6 @@
 [submodule "commons-cloud-mail"]
 	path = commons-cloud-mail
 	url = https://Summng@bitbucket.org/cxria/mail.git
+[submodule "commons-cloud-oss"]
+	path = commons-cloud-oss
+	url = https://Summng@bitbucket.org/cxria/oss.git
