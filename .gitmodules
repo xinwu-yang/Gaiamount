@@ -7,3 +7,6 @@
 [submodule "admin"]
 	path = admin
 	url = https://Summng@bitbucket.org/cxria/admin.git
+[submodule "works"]
+	path = works
+	url = https://Summng@bitbucket.org/cxria/works.git
