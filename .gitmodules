@@ -28,3 +28,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://Summng@bitbucket.org/cxria/gateway.git
+[submodule "eureka"]
+	path = eureka
+	url = https://Summng@bitbucket.org/cxria/eureka.git

@@ -8,7 +8,6 @@ commons-utils
 commons-web
 config
 domain
-eureka
 scheduler
 
 ### IntelliJ IDEA ###
