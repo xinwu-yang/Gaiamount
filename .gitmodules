@@ -43,3 +43,6 @@
 [submodule "commons-web"]
 	path = commons-web
 	url = https://Summng@bitbucket.org/cxria/web.git
+[submodule "commons-dao"]
+	path = commons-dao
+	url = https://Summng@bitbucket.org/cxria/dao.git
