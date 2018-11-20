@@ -22,3 +22,6 @@
 [submodule "personal"]
 	path = personal
 	url = https://Summng@bitbucket.org/cxria/personal.git
+[submodule "order"]
+	path = order
+	url = https://Summng@bitbucket.org/cxria/order.git
