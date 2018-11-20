@@ -46,3 +46,6 @@
 [submodule "commons-dao"]
 	path = commons-dao
 	url = https://Summng@bitbucket.org/cxria/dao.git
+[submodule "commons-cloud-sms"]
+	path = commons-cloud-sms
+	url = https://Summng@bitbucket.org/cxria/sms.git
