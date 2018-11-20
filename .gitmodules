@@ -16,3 +16,6 @@
 [submodule "autoconfigure"]
 	path = autoconfigure
 	url = https://Summng@bitbucket.org/cxria/autoconfigure.git
+[submodule "serverjre"]
+	path = serverjre
+	url = https://Summng@bitbucket.org/cxria/serverjre.git
