@@ -61,3 +61,6 @@
 [submodule "commons-cloud-oss"]
 	path = commons-cloud-oss
 	url = https://Summng@bitbucket.org/cxria/oss.git
+[submodule "commons"]
+	path = commons
+	url = https://Summng@bitbucket.org/cxria/commons.git
