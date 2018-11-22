@@ -8,6 +8,19 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <name>Gaiamount</name>
+    <description>项目运行时依赖</description>
+    <url>https://v2st.gaiamount.com</url>
+    <developers>
+        <developer>
+            <name>杨欣武</name>
+            <organization>cxria</organization>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://Summng@bitbucket.org/cxria/gaiamount-submodule.git</url>
+    </scm>
+
     <modules>
         <module>eureka</module>
         <module>api</module>
@@ -38,12 +51,30 @@
 
         <tomcat.version>9.0.12</tomcat.version>
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <hibernate.version>5.3.7.Final</hibernate.version>
         <hikari.version>3.2.0</hikari.version>
         <metrics.version>4.0.3</metrics.version>
         <springfox.version>2.9.2</springfox.version>
         <xz.version>1.8</xz.version>
         <mysql.version>8.0.13</mysql.version>
         <jaxb.version>2.3.1</jaxb.version>
+
+        <hibernate.version>5.3.7.Final</hibernate.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <aspectj.version>1.8.13</aspectj.version>
+        <swagger.version>1.5.20</swagger.version>
+        <commons-crypto.version>1.0.0</commons-crypto.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>
+
+        <aws.version>1.11.453</aws.version>
+        <ay-core.version>4.2.0</ay-core.version>
+        <ay-oss.version>3.3.0</ay-oss.version>
+        <ay-sms.version>1.1.0</ay-sms.version>
+        <ay-mns.version>1.1.8.6</ay-mns.version>
+        <ay-dm.version>3.3.1</ay-dm.version>
+        <ay-sts.version>3.0.0</ay-sts.version>
+        <ay-pay.version>3.3.49.ALL</ay-pay.version>
 
         <gaiamount.version>${project.version}</gaiamount.version>
         <docker.image.prefix>192.168.1.135:5000/gm</docker.image.prefix>
@@ -143,6 +174,111 @@
                 <groupId>io.dropwizard.metrics</groupId>
                 <artifactId>metrics-json</artifactId>
                 <version>${metrics.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>${commons-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-crypto</artifactId>
+                <version>${commons-crypto.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate-validator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-sts</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-s3</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-cloudfront</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${ay-oss.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>${ay-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>${ay-sms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-sns</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-sqs</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun.mns</groupId>
+                <artifactId>aliyun-sdk-mns</artifactId>
+                <version>${ay-mns.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dm</artifactId>
+                <version>${ay-dm.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-ses</artifactId>
+                <version>${aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-sts</artifactId>
+                <version>${ay-sts.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>${ay-pay.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
