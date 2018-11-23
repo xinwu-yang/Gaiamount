@@ -67,7 +67,8 @@
         <commons-logging.version>1.2</commons-logging.version>
         <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>
 
-        <aws.version>1.11.453</aws.version>
+        <v2.aws.version>2.1.0</v2.aws.version>
+        <aws.version>1.11.454</aws.version>
         <ay-core.version>4.2.0</ay-core.version>
         <ay-oss.version>3.3.0</ay-oss.version>
         <ay-sms.version>1.1.0</ay-sms.version>
@@ -216,24 +217,39 @@
                 <version>${jackson.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-sts</artifactId>
-                <version>${aws.version}</version>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>sts</artifactId>
+                <version>${v2.aws.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-s3</artifactId>
-                <version>${aws.version}</version>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>s3</artifactId>
+                <version>${v2.aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>sqs</artifactId>
+                <version>${v2.aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>cloudfront</artifactId>
+                <version>${v2.aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>sns</artifactId>
+                <version>${v2.aws.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>ses</artifactId>
+                <version>${v2.aws.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.amazonaws</groupId>
                 <artifactId>aws-java-sdk-cloudfront</artifactId>
                 <version>${aws.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.aliyun.oss</groupId>
-                <artifactId>aliyun-sdk-oss</artifactId>
-                <version>${ay-oss.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.aliyun</groupId>
@@ -242,13 +258,18 @@
             </dependency>
             <dependency>
                 <groupId>com.aliyun</groupId>
-                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
-                <version>${ay-sms.version}</version>
+                <artifactId>aliyun-java-sdk-sts</artifactId>
+                <version>${ay-sts.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-sns</artifactId>
-                <version>${aws.version}</version>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${ay-oss.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>${ay-sms.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.amazonaws</groupId>
@@ -264,16 +285,6 @@
                 <groupId>com.aliyun</groupId>
                 <artifactId>aliyun-java-sdk-dm</artifactId>
                 <version>${ay-dm.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-ses</artifactId>
-                <version>${aws.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.aliyun</groupId>
-                <artifactId>aliyun-java-sdk-sts</artifactId>
-                <version>${ay-sts.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alipay.sdk</groupId>
