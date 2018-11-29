@@ -36,6 +36,7 @@
         <module>scheduler</module>
         <module>autoconfigure</module>
         <module>commons</module>
+        <module>zipkin</module>
     </modules>
 
     <parent>
@@ -54,6 +55,7 @@
         <hibernate.version>5.3.7.Final</hibernate.version>
         <hikari.version>3.2.0</hikari.version>
         <metrics.version>4.0.3</metrics.version>
+        <zipkin.version>2.11.8</zipkin.version>
         <springfox.version>2.9.2</springfox.version>
         <xz.version>1.8</xz.version>
         <mysql.version>8.0.13</mysql.version>
@@ -140,6 +142,16 @@
                 <groupId>com.cxria.gaiamount.commons.cloud</groupId>
                 <artifactId>payment</artifactId>
                 <version>${gaiamount.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-server</artifactId>
+                <version>${zipkin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-autoconfigure-ui</artifactId>
+                <version>${zipkin.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
