@@ -73,6 +73,7 @@
         <ay-mns.version>1.1.8.6</ay-mns.version>
         <ay-dm.version>3.3.1</ay-dm.version>
         <ay-sts.version>3.0.0</ay-sts.version>
+        <ay-log.version>0.1.16</ay-log.version>
         <ay-pay.version>3.3.49.ALL</ay-pay.version>
 
         <gaiamount.version>${project.version}</gaiamount.version>
@@ -148,6 +149,11 @@
             <dependency>
                 <groupId>com.cxria.gaiamount.commons.cloud</groupId>
                 <artifactId>payment</artifactId>
+                <version>${gaiamount.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cxria.gaiamount.commons.cloud</groupId>
+                <artifactId>logs</artifactId>
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
@@ -299,6 +305,11 @@
                 <groupId>com.aliyun</groupId>
                 <artifactId>aliyun-java-sdk-dm</artifactId>
                 <version>${ay-dm.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun.openservices</groupId>
+                <artifactId>log-loghub-producer</artifactId>
+                <version>${ay-log.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alipay.sdk</groupId>
