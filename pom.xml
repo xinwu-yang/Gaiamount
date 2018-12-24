@@ -49,7 +49,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
 
-        <spring-cloud.version>Greenwich.RC1</spring-cloud.version>
+        <spring-cloud.version>Greenwich.RC2</spring-cloud.version>
         <tomcat.version>9.0.14</tomcat.version>
         <hibernate.version>5.4.0.Final</hibernate.version>
         <hikari.version>3.2.0</hikari.version>
