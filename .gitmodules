@@ -37,30 +37,9 @@
 [submodule "config"]
 	path = config
 	url = https://Summng@bitbucket.org/cxria/config.git
-[submodule "commons-utils"]
-	path = commons-utils
-	url = https://Summng@bitbucket.org/cxria/utils.git
-[submodule "commons-web"]
-	path = commons-web
-	url = https://Summng@bitbucket.org/cxria/web.git
-[submodule "commons-dao"]
-	path = commons-dao
-	url = https://Summng@bitbucket.org/cxria/dao.git
-[submodule "commons-cloud-sms"]
-	path = commons-cloud-sms
-	url = https://Summng@bitbucket.org/cxria/sms.git
-[submodule "commons-cloud-sqs"]
-	path = commons-cloud-sqs
-	url = https://Summng@bitbucket.org/cxria/sqs.git
-[submodule "commons-cloud-payment"]
-	path = commons-cloud-payment
-	url = https://Summng@bitbucket.org/cxria/payment.git
-[submodule "commons-cloud-mail"]
-	path = commons-cloud-mail
-	url = https://Summng@bitbucket.org/cxria/mail.git
-[submodule "commons-cloud-oss"]
-	path = commons-cloud-oss
-	url = https://Summng@bitbucket.org/cxria/oss.git
 [submodule "commons"]
 	path = commons
 	url = https://Summng@bitbucket.org/cxria/commons.git
+[submodule "nginx"]
+	path = nginx
+	url = https://Summng@bitbucket.org/cxria/nginx.git
