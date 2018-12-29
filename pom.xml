@@ -107,13 +107,13 @@
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.cxria.gaiamount.commons</groupId>
-                <artifactId>dao</artifactId>
+                <groupId>com.cxria.gaiamount</groupId>
+                <artifactId>domain</artifactId>
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.cxria.gaiamount</groupId>
-                <artifactId>domain</artifactId>
+                <groupId>com.cxria.gaiamount.commons</groupId>
+                <artifactId>dao</artifactId>
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
@@ -124,6 +124,11 @@
             <dependency>
                 <groupId>com.cxria.gaiamount.commons</groupId>
                 <artifactId>utils</artifactId>
+                <version>${gaiamount.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cxria.gaiamount.commons.cloud</groupId>
+                <artifactId>core</artifactId>
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
