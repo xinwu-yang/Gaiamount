@@ -49,8 +49,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
 
-        <spring-cloud.version>Greenwich.RC2</spring-cloud.version>
-        <!--<tomcat.version>9.0.14</tomcat.version>-->
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <hibernate.version>5.4.0.Final</hibernate.version>
         <hikari.version>3.3.0</hikari.version>
         <metrics.version>4.0.3</metrics.version>
@@ -65,8 +64,8 @@
         <commons-logging.version>1.2</commons-logging.version>
         <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>
 
-        <v2.aws.version>2.3.1</v2.aws.version>
-        <aws.version>1.11.482</aws.version>
+        <v2.aws.version>2.3.6</v2.aws.version>
+        <aws.version>1.11.487</aws.version>
         <ay-core.version>4.2.3</ay-core.version>
         <ay-oss.version>3.4.0</ay-oss.version>
         <ay-sms.version>1.1.0</ay-sms.version>
@@ -74,7 +73,7 @@
         <ay-dm.version>3.3.1</ay-dm.version>
         <ay-sts.version>3.0.0</ay-sts.version>
         <ay-log.version>0.1.16</ay-log.version>
-        <ay-payed.version>3.3.49.ALL</ay-payed.version>
+        <ay-payed.version>3.4.49.ALL</ay-payed.version>
 
         <gaiamount.version>${project.version}</gaiamount.version>
         <docker.image.prefix>192.168.1.135:5000/gm</docker.image.prefix>
