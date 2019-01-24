@@ -3,43 +3,43 @@
 	url = https://github.com/xinwu-yang/gaiamount-account.git
 [submodule "api"]
 	path = api
-	url = https://Summng@bitbucket.org/cxria/api.git
+	url = https://github.com/xinwu-yang/gaiamount-api.git
 [submodule "admin"]
 	path = admin
-	url = https://Summng@bitbucket.org/cxria/admin.git
+	url = https://github.com/xinwu-yang/gaiamount-admin.git
 [submodule "works"]
 	path = works
-	url = https://Summng@bitbucket.org/cxria/works.git
+	url = https://github.com/xinwu-yang/gaiamount-works.git
 [submodule "upload"]
 	path = upload
-	url = https://Summng@bitbucket.org/cxria/upload.git
+	url = https://github.com/xinwu-yang/gaiamount-upload.git
 [submodule "autoconfigure"]
 	path = autoconfigure
-	url = https://Summng@bitbucket.org/cxria/autoconfigure.git
+	url = https://github.com/xinwu-yang/gaiamount-autoconfigure.git
 [submodule "serverjre"]
 	path = serverjre
-	url = https://Summng@bitbucket.org/cxria/serverjre.git
+	url = https://github.com/xinwu-yang/serverjre.git
 [submodule "personal"]
 	path = personal
-	url = https://Summng@bitbucket.org/cxria/personal.git
+	url = https://github.com/xinwu-yang/gaiamount-personal.git
 [submodule "order"]
 	path = order
-	url = https://Summng@bitbucket.org/cxria/order.git
+	url = https://github.com/xinwu-yang/gaiamount-order.git
 [submodule "gateway"]
 	path = gateway
-	url = https://Summng@bitbucket.org/cxria/gateway.git
+	url = https://github.com/xinwu-yang/gaiamount-gateway.git
 [submodule "eureka"]
 	path = eureka
 	url = https://Summng@bitbucket.org/cxria/eureka.git
 [submodule "domain"]
 	path = domain
-	url = https://Summng@bitbucket.org/cxria/domain.git
+	url = https://github.com/xinwu-yang/gaiamount-domain.git
 [submodule "config"]
 	path = config
-	url = https://Summng@bitbucket.org/cxria/config.git
+	url = https://github.com/xinwu-yang/gaiamount-config.git
 [submodule "commons"]
 	path = commons
-	url = https://Summng@bitbucket.org/cxria/commons.git
+	url = https://github.com/xinwu-yang/Commons.git
 [submodule "nginx"]
 	path = nginx
-	url = https://Summng@bitbucket.org/cxria/nginx.git
+	url = https://github.com/xinwu-yang/nginx.git

@@ -50,13 +50,13 @@
         <java.version>11</java.version>
 
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <hibernate.version>5.4.0.Final</hibernate.version>
+        <hibernate.version>5.4.1.Final</hibernate.version>
         <hikari.version>3.3.0</hikari.version>
         <metrics.version>4.0.3</metrics.version>
-        <zipkin.version>2.11.12</zipkin.version>
+        <zipkin.version>2.12.0</zipkin.version>
         <springfox.version>2.9.2</springfox.version>
         <xz.version>1.8</xz.version>
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.14</mysql.version>
         <slf4j.version>1.7.25</slf4j.version>
         <aspectj.version>1.8.13</aspectj.version>
         <swagger.version>1.5.20</swagger.version>
@@ -158,6 +158,11 @@
             <dependency>
                 <groupId>com.cxria.gaiamount.commons.cloud</groupId>
                 <artifactId>logs</artifactId>
+                <version>${gaiamount.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cxria.gaiamount.commons.cloud</groupId>
+                <artifactId>social</artifactId>
                 <version>${gaiamount.version}</version>
             </dependency>
             <dependency>
@@ -328,12 +333,12 @@
                 <plugin>
                     <groupId>com.google.cloud.tools</groupId>
                     <artifactId>jib-maven-plugin</artifactId>
-                    <version>0.10.1</version>
+                    <version>1.0.0</version>
                 </plugin>
                 <plugin>
                     <groupId>com.spotify</groupId>
                     <artifactId>dockerfile-maven-plugin</artifactId>
-                    <version>1.4.9</version>
+                    <version>1.4.10</version>
                 </plugin>
             </plugins>
         </pluginManagement>
