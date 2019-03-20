@@ -28,14 +28,11 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/xinwu-yang/gaiamount-gateway.git
-[submodule "eureka"]
-	path = eureka
-	url = https://Summng@bitbucket.org/cxria/eureka.git
 [submodule "domain"]
 	path = domain
 	url = https://github.com/xinwu-yang/gaiamount-domain.git
 [submodule "config"]
-	path = config
+	path =
 	url = https://github.com/xinwu-yang/gaiamount-config.git
 [submodule "commons"]
 	path = commons
@@ -43,3 +40,6 @@
 [submodule "nginx"]
 	path = nginx
 	url = https://github.com/xinwu-yang/nginx.git
+[submodule "gaia48"]
+	path = gaia48
+	url = https://github.com/xinwu-yang/gaia48.git
