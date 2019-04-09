@@ -31,9 +31,6 @@
 [submodule "domain"]
 	path = domain
 	url = https://github.com/xinwu-yang/gaiamount-domain.git
-[submodule "config"]
-	path =
-	url = https://github.com/xinwu-yang/gaiamount-config.git
 [submodule "commons"]
 	path = commons
 	url = https://github.com/xinwu-yang/Commons.git
