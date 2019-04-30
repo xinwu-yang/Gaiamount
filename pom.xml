@@ -10,7 +10,7 @@
 
     <name>Gaiamount</name>
     <description>项目运行时依赖</description>
-    <url>https://v2st.gaiamount.com</url>
+    <url>https://works.gaiamount.com</url>
     <developers>
         <developer>
             <name>杨欣武</name>
@@ -18,7 +18,7 @@
         </developer>
     </developers>
     <scm>
-        <url>https://Summng@bitbucket.org/cxria/gaiamount-submodule.git</url>
+        <url>https://github.com/xinwu-yang/Gaiamount.git</url>
     </scm>
 
     <modules>
