@@ -6,8 +6,8 @@
 
 ### 主要软件版本
 1. SpringBoot 2.1.4.RELEASE
-2. SpringCloud Greenwich.RELEASE
-3. Hibernate 5.4.1.Final
+2. SpringCloud Greenwich.SR1
+3. Hibernate 5.4.2.Final
 
 ### 项目包说明
 1. api存放Controller

@@ -24,7 +24,6 @@
     <modules>
         <module>api</module>
         <module>gateway</module>
-        <module>config</module>
         <module>account</module>
         <module>works</module>
         <module>upload</module>
@@ -35,7 +34,6 @@
         <module>domain</module>
         <module>autoconfigure</module>
         <module>commons</module>
-        <module>zipkin</module>
     </modules>
 
     <parent>
@@ -49,13 +47,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
 
-        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <hibernate.version>5.4.1.Final</hibernate.version>
+        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <hibernate.version>5.4.2.Final</hibernate.version>
         <hikari.version>3.3.1</hikari.version>
-        <zipkin.version>2.12.8</zipkin.version>
         <springfox.version>2.9.2</springfox.version>
         <xz.version>1.8</xz.version>
-        <mysql.version>8.0.15</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <slf4j.version>1.7.25</slf4j.version>
         <aspectj.version>1.8.13</aspectj.version>
         <swagger.version>1.5.20</swagger.version>
@@ -63,20 +60,20 @@
         <commons-logging.version>1.2</commons-logging.version>
         <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>
 
-        <v2.aws.version>2.5.6</v2.aws.version>
-        <aws.version>1.11.515</aws.version>
-        <ay-core.version>4.3.5</ay-core.version>
+        <v2.aws.version>2.5.41</v2.aws.version>
+        <aws.version>1.11.550</aws.version>
+        <ay-core.version>4.4.1</ay-core.version>
         <ay-oss.version>3.4.2</ay-oss.version>
         <ay-sms.version>1.1.0</ay-sms.version>
         <ay-mns.version>1.1.8.6</ay-mns.version>
         <ay-dm.version>3.3.1</ay-dm.version>
         <ay-sts.version>3.0.1</ay-sts.version>
         <ay-log.version>0.1.16</ay-log.version>
-        <ay-payed.version>3.6.0.ALL</ay-payed.version>
+        <ay-payed.version>3.7.26.ALL</ay-payed.version>
 
         <gaiamount.version>${project.version}</gaiamount.version>
         <docker.image.prefix>192.168.1.135:5000/gm</docker.image.prefix>
-        <docker.image.base>${docker.image.prefix}/serverjre:11.0.2.2</docker.image.base>
+        <docker.image.base>${docker.image.prefix}/serverjre:11.0.3.1</docker.image.base>
     </properties>
 
     <dependencyManagement>
@@ -152,16 +149,6 @@
                 <groupId>com.cxria.gaiamount.commons.cloud</groupId>
                 <artifactId>social</artifactId>
                 <version>${gaiamount.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.zipkin.java</groupId>
-                <artifactId>zipkin-server</artifactId>
-                <version>${zipkin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.zipkin.java</groupId>
-                <artifactId>zipkin-autoconfigure-ui</artifactId>
-                <version>${zipkin.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -316,7 +303,7 @@
                 <plugin>
                     <groupId>com.google.cloud.tools</groupId>
                     <artifactId>jib-maven-plugin</artifactId>
-                    <version>1.0.2</version>
+                    <version>1.2.0</version>
                 </plugin>
                 <plugin>
                     <groupId>com.spotify</groupId>
@@ -329,7 +316,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
