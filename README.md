@@ -12,7 +12,7 @@
 
 ### web模块
 1. api zuul网关
-2. gateway netty网关
+2. gateway reactor-netty网关
 3. account 账号系统
 4. upload 上传系统
 5. works 作品系统
