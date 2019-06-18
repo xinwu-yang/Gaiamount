@@ -39,7 +39,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
+        <version>2.1.5.RELEASE</version>
     </parent>
 
     <properties>
@@ -48,7 +48,7 @@
         <java.version>11</java.version>
 
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
-        <hibernate.version>5.4.2.Final</hibernate.version>
+        <hibernate.version>5.4.3.Final</hibernate.version>
         <hikari.version>3.3.1</hikari.version>
         <springfox.version>2.9.2</springfox.version>
         <xz.version>1.8</xz.version>
@@ -60,16 +60,16 @@
         <commons-logging.version>1.2</commons-logging.version>
         <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>
 
-        <v2.aws.version>2.5.41</v2.aws.version>
-        <aws.version>1.11.550</aws.version>
-        <ay-core.version>4.4.1</ay-core.version>
+        <v2.aws.version>2.5.60</v2.aws.version>
+        <aws.version>1.11.569</aws.version>
+        <ay-core.version>4.4.2</ay-core.version>
         <ay-oss.version>3.4.2</ay-oss.version>
         <ay-sms.version>1.1.0</ay-sms.version>
         <ay-mns.version>1.1.8.6</ay-mns.version>
         <ay-dm.version>3.3.1</ay-dm.version>
         <ay-sts.version>3.0.1</ay-sts.version>
         <ay-log.version>0.1.16</ay-log.version>
-        <ay-payed.version>3.7.26.ALL</ay-payed.version>
+        <ay-payed.version>3.7.89.ALL</ay-payed.version>
 
         <gaiamount.version>${project.version}</gaiamount.version>
         <docker.image.prefix>192.168.1.135:5000/gm</docker.image.prefix>
