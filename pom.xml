@@ -47,7 +47,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
 
-        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <hibernate.version>5.4.3.Final</hibernate.version>
         <hikari.version>3.3.1</hikari.version>
         <springfox.version>2.9.2</springfox.version>

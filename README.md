@@ -2,13 +2,13 @@
 > Gaiamount是一个聚合专业影视制作人的作品与技术交流分享社区,通过真正意义上的高清晰,高画质以及在线4K/8K等强大功能来完美呈现原创者们拍摄制作的优秀作品.
 
 ### 运行环境
-1. docker swarm
+1. docker swarm (需要迁移到K8s)
 2. serverjre 11.0.3
 
 ### 主要软件版本
-1. SpringBoot 2.1.4.RELEASE
+1. SpringBoot 2.1.6.RELEASE
 2. SpringCloud Greenwich.SR1
-3. Hibernate 5.4.2.Final
+3. Hibernate 5.4.3.Final
 
 ### web模块
 1. api zuul网关
