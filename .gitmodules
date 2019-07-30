@@ -40,3 +40,6 @@
 [submodule "gaia48"]
 	path = gaia48
 	url = https://github.com/xinwu-yang/gaia48.git
+[submodule "creation"]
+	path = creation
+	url = https://github.com/xinwu-yang/gaiamount-creation.git
