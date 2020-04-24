@@ -33,7 +33,7 @@
 	url = https://github.com/xinwu-yang/gaiamount-domain.git
 [submodule "commons"]
 	path = commons
-	url = https://github.com/xinwu-yang/Commons.git
+	url = https://github.com/xinwu-yang/commons.git
 [submodule "nginx"]
 	path = nginx
 	url = https://github.com/xinwu-yang/nginx.git

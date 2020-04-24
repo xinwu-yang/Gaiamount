@@ -1,8 +1,12 @@
-zipkin
-config
+target
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+### VSCode ###
+.project
+.settings
+.classpath
